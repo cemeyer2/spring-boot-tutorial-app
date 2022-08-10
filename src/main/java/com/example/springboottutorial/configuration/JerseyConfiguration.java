@@ -13,6 +13,7 @@ import javax.ws.rs.ApplicationPath;
 @Configuration
 public class JerseyConfiguration  extends ResourceConfig {
 
+
     public JerseyConfiguration() {
         super(HelloWorldResource.class);
     }
